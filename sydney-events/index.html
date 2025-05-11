@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sydney Events</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Sydney Events</h1>
+    <p>Discover the best events happening in Sydney, Australia</p>
+  </header>
+
+  <main id="events-container">
+    <!-- Event 1: Music Gala 2025 -->
+    <div class="event-card">
+      <img src="https://example.com/music-gala-image.jpg" alt="Music Gala Image" />
+      <h2>Music Gala 2025</h2>
+      <p class="date">Date: January 12, 2025</p>
+      <p class="location">Location: Sydney Opera House</p>
+      <p class="description">Join us for an unforgettable night of live music at the Sydney Opera House. Experience top artists and great performances.</p>
+      <a href="https://example.com/music-gala-2025-tickets" class="buy-tickets-btn">Buy Tickets</a>
+    </div>
+
+    <!-- Event 2: Sydney Theatre Night 2025 -->
+    <div class="event-card">
+      <img src="https://example.com/sydney-theatre-image.jpg" alt="Sydney Theatre Image" />
+      <h2>Sydney Theatre Night 2025</h2>
+      <p class="date">Date: February 15, 2025</p>
+      <p class="location">Location: Sydney Theatre</p>
+      <p class="description">Enjoy a night of classic theatre performances at the Sydney Theatre. A night not to be missed!</p>
+      <a href="https://example.com/sydney-theatre-night-2025-tickets" class="buy-tickets-btn">Buy Tickets</a>
+    </div>
+
+    <!-- Event 3: Sydney Arts Festival 2025 -->
+    <div class="event-card">
+      <img src="https://example.com/sydney-arts-festival-image.jpg" alt="Sydney Arts Festival Image" />
+      <h2>Sydney Arts Festival 2025</h2>
+      <p class="date">Date: March 10, 2025</p>
+      <p class="location">Location: Sydney Arts Centre</p>
+      <p class="description">The Sydney Arts Festival 2025 will showcase performances, exhibitions, and art installations. A must-attend for art lovers.</p>
+      <a href="https://example.com/sydney-arts-festival-2025-tickets" class="buy-tickets-btn">Buy Tickets</a>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+
+  <!-- Email Popup -->
+  <div id="email-popup" class="popup hidden">
+    <div class="popup-content">
+      <h3>Enter your email to get tickets</h3>
+      <input type="email" id="user-email" placeholder="you@example.com" required />
+      <button onclick="submitEmail()">Submit</button>
+      <button onclick="closePopup()" class="close-btn">Cancel</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
